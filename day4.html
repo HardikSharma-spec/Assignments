@@ -1,0 +1,99 @@
+
+   
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TCS Application Form</title>
+    <style>
+        body {
+            background-color: rgb(201, 240, 130);
+        }
+
+        .Form {
+            border: 1px solid black;
+            padding: 10px;
+            margin-top: 1%;
+            width: 70%;
+            margin-left: 2%;
+        }
+       
+        header {
+            border: 1px solid rgb(0, 0, 0);
+            border-top: 5px solid rgb(82, 30, 5);
+            border-left: 5px solid rgb(171, 134, 206);
+            padding: 10px;
+            margin-top: 1%;
+            width: 70%;
+            margin-left: 2%;
+        }
+        .submit,.reset
+        {
+            margin-left:18%;
+            width:15%;
+            border-radius: 10px;
+        }
+      .submit:hover,.reset:hover
+      {
+          background-color: black;
+          color:white;
+      }
+
+    </style>
+</head>
+
+<body>
+    
+    <header>
+        <h1>TCS Application Form</h1>
+    </header>
+    <form action="">
+        <div class="Form">
+            Name:
+            <input type="text" name="name" id="name" placeholder="Enter Full Name">
+        </div>
+        <div class="Form">
+            Email Id:
+            <input type="email" name="email" id="email" placeholder="Enter Email-id">
+        </div>
+        <div class="Form">
+            Password:
+            <input type="password" name="password" placeholder="Enter Password">
+        </div>
+        <div class="Form">
+            Gender:
+            
+            <input type="Radio" name="Gender" value="Male">Male
+            <input type="Radio" name="Gender" value="Female">Female
+            <input type="Radio" name="Gender" value="Other">Other
+            <input type="Radio" name="Gender" value="Prefer not to say">Prefer not to say
+        </div>
+        <div class="Form">
+         <select name="State" id="State">
+            <option value="Select State">Select State</option>
+             <option value="Rajasthan">Rajasthan</option>
+             <option value="Maharashtra">Maharashtra</option>
+             <option value="Punjab">Punjab</option>
+             <option value="Tamilnadu">Tamilnadu</option>
+         </select>
+        </div>
+
+       <br>
+       <div class="lastbutt">
+        <input type="submit" value="Click to submit" class="submit">
+        <input type="reset" value="Click to reset" class="reset">
+       </div>
+
+        
+        
+        
+
+
+
+
+    </form>
+
+</body>
+
+</html>
+
